@@ -1,0 +1,16 @@
+.flex{
+    display: flex;
+    /* align-items: center; */
+}
+.invert{
+    filter: invert(1);
+}
+.cursor{
+    cursor: pointer;
+}
+
+.transform:hover{
+    transform: scale(1.06);
+}
+
+

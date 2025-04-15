@@ -1,0 +1,92 @@
+/* dark-mode.css */
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212; /* Dark background for body */
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  /* Navigation Bar */
+  body.dark-mode .nav {
+    background-color: #1f2a36; /* Darker blue for navigation */
+    color: #e0e0e0; /* Light text */
+  }
+  
+  body.dark-mode .nav a, body.dark-mode .nav h1 {
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode .nav a:hover {
+    color: #00c7b7; /* Highlight color on hover */
+  }
+  
+  /* Search Bar */
+  body.dark-mode .search-bar {
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text */
+  }
+  
+  body.dark-mode .input-search {
+    background-color: #444; /* Dark input */
+    color: #fff;
+  }
+  
+  body.dark-mode .input-search::placeholder {
+    color: #bbb; /* Light placeholder */
+  }
+  
+  /* Welcome Section */
+  body.dark-mode .Welcome::before {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/openhimer.jpeg');
+  }
+  
+  /* Card & Movie Info */
+  body.dark-mode .card-container img {
+    border-radius: 10px;
+    background-color: #333; /* Dark card background */
+  }
+  
+  body.dark-mode .movie-name, body.dark-mode .movie-time {
+    color: #fff; /* Light text for movie names */
+  }
+  body.dark-mode .time{
+    background-color: rgb(175, 168, 168);
+    border: 0.5px solid #333;
+    
+  }
+  
+  /* Footer */
+  body.dark-mode .footer {
+    background-color: #1f2a36; /* Dark footer background */
+    color: black; /* Light text */
+  }
+  
+  body.dark-mode .footer a {
+    color: #00c7b7; /* Highlight color for links */
+  }
+  
+  /* Leaderboard and Entries */
+  body.dark-mode .leaderboard {
+     background-color: #1c1f25; /*Dark leaderboard */
+    color: #ddd; /* Light text */
+  }
+  body.dark-mode .user, body.dark-mode .score, body.dark-mode .rank, body.dark-mode .leaderboard h2{
+    color: white;
+  }
+  body.dark-mode .information{
+    color: black;
+  }
+  body.dark-mode .entry {
+    background-color: #2a2a2a; /* Dark entry background */
+    color: #ccc; /* Light text */
+  }
+  
+  body.dark-mode .bar-wrap {
+    background-color: #444; /* Dark bar background */
+  }
+  body.dark-mode .Trailers-content{
+    color: black;
+  }
+  body.dark-mode .Welcome-content, body.dark-mode .dark-color{
+    color: black;
+  }

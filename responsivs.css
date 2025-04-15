@@ -1,0 +1,157 @@
+
+
+@media (max-width: 1070px) {
+  .nav {
+    height: 6vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  .search-bar {
+    height: 5vh;
+  }
+
+  .input-search {
+    font-size: 10px;
+    height: 3vh;
+  }
+
+  .left-nav p,
+  .right-nav p,
+  .right-nav h1 {
+    display: none;
+  }
+
+  .left-nav img {
+   margin-top: .01px;
+    margin-left: 40px;
+    width: 120px;
+    height: auto;
+  }
+
+  .Welcome {
+    height: 30vh;
+  }
+
+  .Welcome-content {
+    margin-left: 5%;
+  }
+
+  .input input {
+    width: 60vw;
+    height: 3vh;
+  }
+
+  .input button {
+    height: 3vh;
+    width: 70px;
+    margin-left: 0;
+  }
+
+  .cards {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+
+  .card-container img {
+    height: 20vh;
+    width: 25vw;
+  }
+
+  .trending {
+    height: 45vh;
+    padding-left: 5%;
+  }
+
+  .Trailers {
+    height: 42vh;
+    overflow-x: auto;
+  }
+
+  .Trailers-container img {
+    height: 12vh;
+    width: 40vw;
+  }
+
+ 
+
+  .community {
+    height: 15vh;
+    background-position: center;
+  }
+
+  .intro {
+    margin: 14px 20px 10px 0;
+    padding-left: 6%;
+  }
+
+  .footer {
+    height: 25vh;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .part1 img {
+    margin-left: 0;
+    height: 100px;
+    width: 100px;
+  }
+
+  .box {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .legal {
+    display: none;
+  }
+
+  .leaderboard {
+    padding: 10px;
+    font-size: 0.85em;
+  }
+
+  .entry {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bar-wrap {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .score {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .bar {
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  .bar-fill {
+    height: 100%;
+    background-color: #007bff;
+    width: 60%;
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+  }
+  .time{
+    overflow-x: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+}
