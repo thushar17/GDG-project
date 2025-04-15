@@ -25,23 +25,20 @@ window.addEventListener('scroll', () => {
 });
 
 
-
-
-// dark-mode-toggle.js
-
-// Function to toggle dark mode when button with class 'dark' is clicked
+// dark mode
 function toggleDarkMode() {
-    // Toggle the 'dark-mode' class on the body element
+   
     document.body.classList.toggle('dark-mode');
   }
   
-  // Add an event listener for the button with class 'dark'
+  // event listner for dark
   const darkModeButton = document.querySelector('.dark');
   if (darkModeButton) {
     darkModeButton.addEventListener('click', toggleDarkMode);
   }
   const trailersSection = document.querySelector('.Trailers');
   const trailerImages = document.querySelectorAll('.Trailers-container img');
+   trailersSection.style.backgroundColor = '#0d1822'
 
   trailerImages.forEach(img => {
     img.addEventListener('mouseenter', () => {
@@ -53,6 +50,6 @@ function toggleDarkMode() {
     });
 
     img.addEventListener('mouseleave', () => {
-      trailersSection.style.backgroundImage = ''; // Remove background image
+      trailersSection.style.backgroundImage = ''; 
     });
   });
